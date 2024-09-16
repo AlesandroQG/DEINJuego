@@ -1,12 +1,13 @@
 package com.alesandro.juego;
 
 import javafx.application.Application;
-import javafx.scene.Group;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -19,7 +20,7 @@ public class JuegoApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         // Iniciar juego
-        juego = new Juego();
+         juego = new Juego();
 
         // Vida
         Label vidaJugador = new Label(juego.getJugador().getVida() + "");
@@ -30,12 +31,20 @@ public class JuegoApplication extends Application {
         borderPane.setRight(vidaEnemigo);
 
         // Resultados
+        Label txt = new Label();
 
         // Botón atacar
         Button btnAtacar = new Button("ATACAR");
 
+        btnAtacar.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+
+            }
+        });
+
         // Contenedor principal
-        Group root = new Group();
+        Pane root = new Pane();
         root.getChildren().add(borderPane);
 
         // Escena
