@@ -14,6 +14,9 @@ import java.io.IOException;
 
 import beans.*;
 
+/**
+ * Clase principal donde se dibuja y ejecuta el programa
+ */
 public class JuegoApplication extends Application {
     protected Juego juego;
 
