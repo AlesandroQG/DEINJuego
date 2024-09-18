@@ -13,7 +13,7 @@ public class Enemigo {
      * Constructor del enemigo que automáticamente asigna la vida a 100
      */
     public Enemigo() {
-        this.vida = 100;
+        this.vida = 20;
     }
 
     /**

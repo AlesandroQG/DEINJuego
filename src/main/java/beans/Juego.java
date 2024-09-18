@@ -23,19 +23,34 @@ public class Juego {
 
     /**
      * Función de jugar
+     * @return Lista de valores a devolver -> {jugadorDado, enemigoDado, resultado('g' si ganado juego, 'p' si perdido juego, 'e' si enemigo gana ronda, 'j' si jugador gana ronda, 'm' si empate)}
      */
-    public void jugar() {
+    public String[] jugar() {
         int jugadorDado = dado();
         int enemigoDado = dado();
+        String[] resultado=new String[3];
+        resultado[0] = jugadorDado + "";
+        resultado[1] = enemigoDado + "";
         if (jugadorDado > enemigoDado) {
             int resta = jugadorDado - enemigoDado;
             enemigo.setVida(enemigo.getVida() - resta);
+            if (enemigo.getVida()<=0) {
+                resultado[2] = "g";
+            } else {
+                resultado[2] = "j";
+            }
         } else if (enemigoDado > jugadorDado) {
             int resta = enemigoDado - jugadorDado;
             jugador.setVida(jugador.getVida() - resta);
+            if (jugador.getVida()<=0) {
+                resultado[2] = "p";
+            } else {
+                resultado[2] = "e";
+            }
         } else {
-            System.out.println("Empate");
+            resultado[2] = "m";
         }
+        return resultado;
     }
 
     /**

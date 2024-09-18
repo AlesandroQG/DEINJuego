@@ -1,3 +1,7 @@
 .label {
     -fx-font-weight: bold;
+    -fx-text-align: center;
+}
+.vbox {
+    -fx-border-width: 25px;
 }

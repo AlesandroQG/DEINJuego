@@ -13,7 +13,7 @@ public class Jugador {
      * Constructor del jugador que automáticamente asigna la vida a 100
      */
     public Jugador() {
-        this.vida = 100;
+        this.vida = 20;
     }
 
     /**
