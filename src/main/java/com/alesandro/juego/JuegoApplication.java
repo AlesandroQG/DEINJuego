@@ -15,8 +15,15 @@ import beans.*;
  * Clase principal donde se dibuja y ejecuta el programa
  */
 public class JuegoApplication extends Application {
+    /**
+     * Parámetro del juego
+     */
     private Juego juego;
 
+    /**
+     * Función que dibuja el programa
+     * @param stage de la aplicación
+     */
     @Override
     public void start(Stage stage) {
         // Iniciar juego
