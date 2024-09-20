@@ -2,6 +2,8 @@ package com.alesandro.beans;
 
 /**
  * Clase del jugador
+ *
+ * @author alesandroquirosgobbato
  */
 public class Jugador {
     /**
@@ -18,6 +20,7 @@ public class Jugador {
 
     /**
      * Obtiene el valor de la vida del jugador
+     *
      * @return valor de la vida
      */
     public int getVida() {
@@ -26,6 +29,7 @@ public class Jugador {
 
     /**
      * Actualiza el valor de la vida del jugador
+     *
      * @param vida del jugador a actualizar
      */
     public void setVida(int vida) {

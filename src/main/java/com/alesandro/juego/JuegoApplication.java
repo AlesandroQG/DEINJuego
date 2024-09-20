@@ -12,6 +12,8 @@ import javafx.stage.Stage;
 
 /**
  * Clase principal donde se dibuja y ejecuta el programa
+ *
+ * @author alesandroquirosgobbato
  */
 public class JuegoApplication extends Application {
     /**
@@ -20,8 +22,9 @@ public class JuegoApplication extends Application {
     private Juego juego;
 
     /**
+     * {@inheritDoc}
+     *
      * Función que dibuja el programa
-     * @param stage de la aplicación
      */
     @Override
     public void start(Stage stage) {
@@ -83,6 +86,11 @@ public class JuegoApplication extends Application {
         stage.show();
     }
 
+    /**
+     * <p>main.</p>
+     *
+     * @param args an array of {@link java.lang.String} objects
+     */
     public static void main(String[] args) {
         Application.launch();
     }

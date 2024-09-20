@@ -2,6 +2,8 @@ package com.alesandro.beans;
 
 /**
  * Clase principal del juego
+ *
+ * @author alesandroquirosgobbato
  */
 public class Juego {
     /**
@@ -23,6 +25,7 @@ public class Juego {
 
     /**
      * Función de jugar
+     *
      * @return Lista de valores a devolver -> {jugadorDado, enemigoDado, resultado('g' si ganado juego, 'p' si perdido juego, 'e' si enemigo gana ronda, 'j' si jugador gana ronda, 'm' si empate)}
      */
     public String[] jugar() {
@@ -63,6 +66,7 @@ public class Juego {
 
     /**
      * Obtiene el jugador del juego
+     *
      * @return el jugador
      */
     public Jugador getJugador() {
@@ -71,6 +75,7 @@ public class Juego {
 
     /**
      * Obtiene el enemigo del juego
+     *
      * @return el enemigo
      */
     public Enemigo getEnemigo() {
