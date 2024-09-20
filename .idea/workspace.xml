@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17d1fb03-6b56-41a8-a21e-63d33ad1055c" name="Changes" comment="Commit inicial">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beans/Enemigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alesandro/beans/Enemigo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beans/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alesandro/beans/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beans/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alesandro/beans/Jugador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alesandro/juego/JuegoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alesandro/juego/JuegoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -1,23 +1,23 @@
-package beans;
+package com.alesandro.beans;
 
 /**
- * Clase del enemigo
+ * Clase del jugador
  */
-public class Enemigo {
+public class Jugador {
     /**
-     * Vida del enemigo
+     * Vida del jugador
      */
     private int vida;
 
     /**
-     * Constructor del enemigo que automáticamente asigna la vida a 100
+     * Constructor del jugador que automáticamente asigna la vida a 100
      */
-    public Enemigo() {
+    public Jugador() {
         this.vida = 20;
     }
 
     /**
-     * Obtiene el valor de la vida del enemigo
+     * Obtiene el valor de la vida del jugador
      * @return valor de la vida
      */
     public int getVida() {
@@ -25,7 +25,7 @@ public class Enemigo {
     }
 
     /**
-     * Actualiza el valor de la vida del enemigo
+     * Actualiza el valor de la vida del jugador
      * @param vida del jugador a actualizar
      */
     public void setVida(int vida) {

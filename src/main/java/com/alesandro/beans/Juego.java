@@ -1,4 +1,4 @@
-package beans;
+package com.alesandro.beans;
 
 /**
  * Clase principal del juego
